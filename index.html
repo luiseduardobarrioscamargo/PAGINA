@@ -6,21 +6,51 @@
     <title>FAMILIA</title>
 </head>
 <body>
-    <H1 style="color: blue;text-align: center;"> MY FAMILIA</H1>
+    <form action="/formulario" method="get">
+        <label for="nombre">NOMBRE:</label> 
+        <input type="text" id="nombre" name="nombre" placeholder="nombre">
+        <br>
+          <label for="apellido">PELLIDO:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="apellido">
+        <br>
+        <label for="comentario">COMENTARIO:</label>
+        <textarea rows="10 filas" cols="20 cols" name="comentario" id="comentario" placeholder="ingresar comentario"></textarea>
+        <br>
+        <input type="submit" />
+    </form>
+
+    <H1 style="color: blue;text-align: center;"> MY FAMILIA </H1>
     <p style="font-size: 20px; text-align: justify;">
         Mi familia es muy especial para mí. Está compuesta por mi madre, mis dos hermanos y yo. 
         Mi madre es muy trabajadora y siempre nos apoyan en todo lo que hacemos. 
         Mis hermanos son divertidos y siempre estamos jugando juntos cuando tenemos tiempo libre.</p>
         <hr>
-        <H2 style="text-align: center;color: blueviolet;"> MY MAMA</H2>
+        <H2 style="text-align: center;color: rgb(6, 1, 10);"> MY MAMA</H2>
         <P style="text-align: center;color: blueviolet;">mi mama es <b>MARGARITA ROZA CAMARGO ORTIZ</b> esta enferma y en la cama
         pero eso no le quita la alegria y quiere salir adelante. </P>
         <div class="contenedor-imagenes">
-            <img src="IMAGENES/mama-1.jpg" alt="Mi Mama" style="display: block; margin: 0 auto; width: 200px; height: auto;">
-            <img src="IMAGENES/mama-2.jpg" alt="Mi Mama" style="display: block; margin: 0 auto; width: 200px; height: auto;">
-            
+            <img src="IMAGENES/mama-1.jpg" alt="Mi Mama" style="display: block; margin: 0 auto; width: 200px; height: auto;"/>
+            <img src="IMAGENES/mama-2.jpg" alt="Mi Mama" style="display: block; margin: 0 auto; width: 200px; height: auto;"/>
         </div>
-        
-      
-</body>
+        <hr>
+
+        <H2 style="text-align: center;color: yellow;"> MI HERMANA </H2>
+        <P style="text-align: center;color: yellow;">mi hermana se llama <span style="color: blue;">YULIETH GISELLA BARRIOS CAMARGO</span> es un poco inteligente pero es muy trabajadora 
+        y siempre esta dispuesta a ayudar a los demas. </P>
+        <div class="contenedor-imagenes">
+            <img src="IMAGENES/hemana-1.jpg" alt="Mi Hermana" style="display: block; margin: 0 auto; width: 200px; height: auto;"/>
+            <img src="IMAGENES/hemana-2.jpg" alt="Mi Hermana" style="display: block; margin: 0 auto; width: 200px; height: auto;"/>
+            <IMG src="IMAGENES/hermana-3.jpg" alt="Mi Hermana" style="display: block; margin: 0 auto; width: 200px; height: auto;"/>
+            <IMG src="IMAGENES/hemana-4.jpg" alt="Mi Hermana" style="display: block; margin: 0 auto; width: 200px; height: auto;"/> 
+        </div>
+        <hr>
+        <H2 style="text-align: center;color: green;"> MI HERMANO </H2>
+        <P style="text-align: center;color: green;">mi hermano se llama <span style="color: blue;">ARIEL ENRIQUE BARRIOS CAMARGO</span>
+        <p style="text-align: center;color: green;">es muy inteligente y le gusta mucho estudiar, siempre saca buenas notas en la escuela. pero no es bueno con la plata </P>
+        <div class="contenedor-imagenes">
+            <img src="IMAGENES/hemano-1.jpg" alt="Mi Hermano" style="display: block; margin: 0 auto; width: 200px; height: auto;"/>
+            <img src="IMAGENES/hermano-2.jpg" alt="Mi Hermano" style="display: block; margin: 0 auto; width: 200px; height: auto;"/>
+
+            <a target="_blank" href="https://www.google.com.co">ir a google</a>
+        </body>
 </html>

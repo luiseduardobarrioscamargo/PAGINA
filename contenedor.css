@@ -1,0 +1,8 @@
+.contenedor-imagenes {
+  display: flex; /* imagenes/mama-1 */
+}
+
+/* Opcional: añade un margen para separar las imágenes */
+.contenedor-imagenes img {
+  margin-right: 10px; /* Crea espacio entre las imágenes */
+}
