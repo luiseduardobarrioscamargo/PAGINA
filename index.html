@@ -6,19 +6,58 @@
     <title>FAMILIA</title>
 </head>
 <body>
+    <!--<TABLE> ES PARA HACER UNA TABLA Y <TR> ES UNA FILA <TH> ES UNA CABECERA <TD> DEFINE ELEMENTOS ESTANDARES -->
+    <table> 
+        <tr>
+            <th>MI FAMILIA</th>
+            <th>EDAD</th>
+            <th>PARENTESCO</th>
+        </tr>
+        <tr>
+            <td>MARGARITA ROZA CAMARGO ORTIZ</td>
+            <td>45 AÑOS</td>
+            <td>MAMA</td>
+        </tr>
+        <tr>
+            <td>YULIETH GISELLA BARRIOS CAMARGO</td>
+            <td>22 AÑOS</td>
+            <td>HERMANA</td>
+        </tr>
+        <tr>
+            <td>ARIEL ENRIQUE BARRIOS CAMARGO</td>
+            <td>19 AÑOS</td>
+            <td>HERMANO</td>
+        </tr>
+    </table>
+    <!-- <UL> ES UNA LISTA NO ORDENADA <OL> LISTA ORDENADA Y <LI> ES PARA DEMARCAR LO DE LA LISTA 
+        <LI VALUE=" "> ES PARA DECIDIR EN DONDE INICIAR LA LISTA, SE PUEDE AGREGAR UNA SUBLISTA DENTRO 
+            DEL VALOR <LI> EJEMPLO <LI STYLE="list-style-type: "   -->
+    <UL>
+        <LI style="list-style-type:lower-alpha;">MI MAMA</LI>
+        <LI style="list-style-type:lower-alpha;">MI HERMANA</LI>
+
+    </UL>
+
+
+    <!--<FORM>ES UN FORMULARIO DE ENTRADA DE DATOS -->
     <form action="/formulario" method="get">
         <label for="nombre">NOMBRE:</label> 
         <input type="text" id="nombre" name="nombre" placeholder="nombre">
         <br>
-          <label for="apellido">PELLIDO:</label>
+          <label for="apellido">APELLIDO:</label>
         <input type="text" id="apellido" name="apellido" placeholder="apellido">
         <br>
-        <label for="comentario">COMENTARIO:</label>
+        <label for="comentario">COMENTARIO</label>
         <textarea rows="10 filas" cols="20 cols" name="comentario" id="comentario" placeholder="ingresar comentario"></textarea>
         <br>
-        <input type="submit" />
+
+        <!-- <BUTTON> ES PARA BOTONES DE ACCION COMO ENVIAR O RESET EN <TYPE="BUTTON"><SE PUEDE PERSONALIZAR>"-->
+        <button type="button"><img src="IMAGENES/familia-1.jpg" width="50"></button>
+        <button type="reset">RESET</button>
+        <button type="submit">ENVIAR</button>
     </form>
 
+    <!--DEL H1 AL H6 ES PARA  ESTITULOS Y <P> ES PARA PARRAFOS -->
     <H1 style="color: blue;text-align: center;"> MY FAMILIA </H1>
     <p style="font-size: 20px; text-align: justify;">
         Mi familia es muy especial para mí. Está compuesta por mi madre, mis dos hermanos y yo. 
@@ -28,15 +67,19 @@
         <H2 style="text-align: center;color: rgb(6, 1, 10);"> MY MAMA</H2>
         <P style="text-align: center;color: blueviolet;">mi mama es <b>MARGARITA ROZA CAMARGO ORTIZ</b> esta enferma y en la cama
         pero eso no le quita la alegria y quiere salir adelante. </P>
+
+            <!-- <DIV> ES UN CONTENEDOR PUEDE SER USADO EN DIFERENTES COSAS EJEMPLO <IMG> ES PARA IMAGENES-->
         <div class="contenedor-imagenes">
             <img src="IMAGENES/mama-1.jpg" alt="Mi Mama" style="display: block; margin: 0 auto; width: 200px; height: auto;"/>
             <img src="IMAGENES/mama-2.jpg" alt="Mi Mama" style="display: block; margin: 0 auto; width: 200px; height: auto;"/>
+        
         </div>
         <hr>
-
+            <!-- <STYLE> SE USA PARA DAR DIFERENTES ESTILOS COMO EL COLOR SI ES TEXTO O LA ALINEACION  -->
         <H2 style="text-align: center;color: yellow;"> MI HERMANA </H2>
         <P style="text-align: center;color: yellow;">mi hermana se llama <span style="color: blue;">YULIETH GISELLA BARRIOS CAMARGO</span> es un poco inteligente pero es muy trabajadora 
         y siempre esta dispuesta a ayudar a los demas. </P>
+        
         <div class="contenedor-imagenes">
             <img src="IMAGENES/hemana-1.jpg" alt="Mi Hermana" style="display: block; margin: 0 auto; width: 200px; height: auto;"/>
             <img src="IMAGENES/hemana-2.jpg" alt="Mi Hermana" style="display: block; margin: 0 auto; width: 200px; height: auto;"/>
@@ -51,6 +94,7 @@
             <img src="IMAGENES/hemano-1.jpg" alt="Mi Hermano" style="display: block; margin: 0 auto; width: 200px; height: auto;"/>
             <img src="IMAGENES/hermano-2.jpg" alt="Mi Hermano" style="display: block; margin: 0 auto; width: 200px; height: auto;"/>
 
+            <!--<A> SE UTILIZA PARA CREAR HIPERBINCULO (TARGET="_BLANK") ES PARA QUE EL HIPERBINCULO NO CIERRE LA PAGINA PRINCIPAL-->
             <a target="_blank" href="https://www.google.com.co">ir a google</a>
         </body>
 </html>
